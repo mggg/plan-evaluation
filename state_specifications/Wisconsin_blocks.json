@@ -1,0 +1,245 @@
+{
+    "name": "Wisconsin",
+    "postal": "WI",
+    "plan_types": [
+        "congress",
+        "state_house",
+        "state_senate"
+    ],
+    "districts": {
+        "congress": 8,
+        "state_senate": 33,
+        "state_house": 99
+    },
+    "epsilons": {
+        "congress": 0.01,
+        "state_senate": 0.02,
+        "state_house": 0.05
+    },
+    "chain_types": [
+        "neutral",
+        "county_aware"
+    ],
+    "dual_graph": "wi_block_no_water_elecs.json",
+    "pop_col": "TOTPOP20",
+    "county_col": "COUNTYFP20",
+    "elections": [
+        {
+            "name": "SEN18",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "SEN18D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "SEN18R"
+                }
+            ]
+        },
+        {
+            "name": "GOV18",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "GOV18D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "GOV18R"
+                }
+            ]
+        },
+        {
+            "name": "ATG18",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "AG18D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "AG18R"
+                }
+            ]
+        },
+        {
+            "name": "SOS18",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "SOS18D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "SOS18R"
+                }
+            ]
+        },
+        {
+            "name": "TRES18",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "TRE18D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "TRE18R"
+                }
+            ]
+        },
+        {
+            "name": "PRES16",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "PRES16D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "PRES16R"
+                }
+            ]
+        },
+        {
+            "name": "SEN16",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "SEN16D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "SEN16R"
+                }
+            ]
+        },
+        {
+            "name": "GOV14",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "GOV14D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "GOV14R"
+                }
+            ]
+        },
+        {
+            "name": "ATG14",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "AG14D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "AG14R"
+                }
+            ]
+        },
+        {
+            "name": "SOS14",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "SOS14D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "SOS14R"
+                }
+            ]
+        },
+        {
+            "name": "TRES14",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "TRE14D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "TRE14R"
+                }
+            ]
+        },
+        {
+            "name": "SEN12",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "SEN12D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "SEN12R"
+                }
+            ]
+        },
+        {
+            "name": "PRES12",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "PRES12D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "PRES12R"
+                }
+            ]
+        },
+        {
+            "name": "GOV12",
+            "candidates": [
+                {
+                    "name": "Democratic",
+                    "key": "GOV12D"
+                },
+                {
+                    "name": "Republican",
+                    "key": "GOV12R"
+                }
+            ]
+        }
+    ],
+    "pov_party": "Democratic",
+    "metrics": [
+        {"id": "TOTPOP20", "name": "TOTPOP", "type": "col_tally"},
+        {"id": "WPOP20", "name": "WPOP", "type": "col_tally"},
+        {"id": "BPOP20", "name": "BPOP", "type": "col_tally"},
+        {"id": "AMINPOP20", "name": "AMINPOP", "type": "col_tally"},
+        {"id": "ASIANPOP20", "name": "ASIANPOP", "type": "col_tally"},
+        {"id": "NHPIPOP20", "name": "NHPIPOP", "type": "col_tally"},
+        {"id": "OTHERPOP20", "name": "OTHERPOP", "type": "col_tally"},
+        {"id": "2MOREPOP20", "name": "2MOREPOP", "type": "col_tally"},
+        {"id": "HISP20", "name": "HPOP", "type": "col_tally"},
+        {"id": "VAP20", "name": "VAP", "type": "col_tally"},
+        {"id": "WVAP20", "name": "WVAP", "type": "col_tally"},
+        {"id": "BVAP20", "name": "BVAP", "type": "col_tally"},
+        {"id": "APBVAP20", "name": "APBVAP", "type": "col_tally"},
+        {"id": "AMINVAP20", "name": "AMINVAP", "type": "col_tally"},
+        {"id": "ASIANVAP20", "name": "ASIANVAP", "type": "col_tally"},
+        {"id": "NHPIVAP20", "name": "NHPIVAP", "type": "col_tally"},
+        {"id": "OTHERVAP20", "name": "OTHERVAP", "type": "col_tally"},
+        {"id": "2MOREVAP20", "name": "2MOREVAP", "type": "col_tally"},
+        {"id": "HVAP20", "name": "HVAP", "type": "col_tally"},
+        {"id": "num_cut_edges", "name": "Cut Edges"},
+        {"id": "num_county_pieces", "name": "County Pieces"},
+        {"id": "num_split_counties", "name": "Split Counties"},
+        {"id": "seats", "name": "Seats Won"},
+        {"id": "efficiency_gap", "name": "Efficiency Gap"},
+        {"id": "mean_median", "name": "Mean Median"},
+        {"id": "partisan_bias", "name": "Partisan Bias"},
+        {"id": "eguia_county", "name": "Eguia Metric by County"},
+        {"id": "num_swing_districts", "name": "Swing Districts"},
+        {"id": "num_competitive_districts", "name": "Competitive Districts"},
+        {"id": "num_party_districts", "name": "Safe {} Districts"},
+        {"id": "num_op_party_districts", "name": "Safe {} Districts"},
+        {"id": "num_party_wins_by_district", "name": "{} Wins by District"}
+    ]
+}

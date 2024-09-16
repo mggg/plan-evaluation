@@ -1,5 +1,5 @@
 ## Constants
-SUPPORTED_STATES = ["Michigan", "Virginia", "Wisconsin", "Utah", "Utah_blocks", "Pennsylvania", "Missouri", "North_Carolina"]
+SUPPORTED_STATES = ["Michigan", "Virginia", "Wisconsin", "Wisconsin_blocks", "Utah", "Utah_blocks", "Pennsylvania", "Missouri", "North_Carolina"]
 SUPPORTED_PLAN_TYPES = ["congress", "state_senate", "state_house", "school_board"]
 
 DUAL_GRAPH_DIR = "dual_graphs"
